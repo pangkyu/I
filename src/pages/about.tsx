@@ -28,7 +28,7 @@ const About: React.FC<AboutProps> = ({ location, data }) => {
 
   return (
     <Layout location={location}>
-      <Seo title='개발자 단민 | About' />
+      <Seo title='seongkyu  | About' />
       <MainBanner author={author} />
       <Bio bio={author.bio} />
 
@@ -62,7 +62,6 @@ export const pageQuery = graphql`
           }
           dropdown {
             velog
-            tistory
           }
         }
         timestamps {

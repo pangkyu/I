@@ -30,7 +30,7 @@ const Home: React.FC<HomeProps> = ({ location, data }) => {
 
   return (
     <Layout location={location}>
-      <Seo title='개발자 단민' />
+      <Seo title='seongkyu' />
       <MainBanner author={author} />
 
       <FeaturedPostColumn title='Recent Posts' posts={recentPosts} fill={false} />
@@ -84,7 +84,6 @@ export const pageQuery = graphql`
           }
           dropdown {
             velog
-            tistory
           }
         }
         featured {

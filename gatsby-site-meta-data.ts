@@ -2,10 +2,10 @@ export default {
   /**
    * basic Information
    */
-  title: `jeong-min.com`,
+  title: `seongkyu.log`,
   description: `성규 블로그`,
   language: `ko`,
-  siteUrl: `https://jeong-min.com/`,
+  siteUrl: `https://pangkyu.netlify.app/`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
 
   /**
@@ -31,11 +31,10 @@ export default {
     },
     social: {
       github: `https://github.com/pangkyu`,
-      linkedIn: `https://www.linkedin.com/in/jeonming-lee/`,
-      resume: `https://www.figma.com/file/dtkCl6G7G5DVe18DN2LWny/%EC%9D%B4%EC%A0%95%EB%AF%BC-%EC%9D%B4%EB%A0%A5%EC%84%9C?node-id=0%3A1`,
+      linkedIn: `https://www.linkedin.com/in/%EC%84%B1%EA%B7%9C-%EB%B0%B0-45800b269/`,
+      resume: ``,
     },
     dropdown: {
-      tistory: 'https://danminblog.tistory.com/',
       velog: 'https://velog.io/@pangkyu',
     },
   },
@@ -48,10 +47,10 @@ export default {
       title: 'category1',
       category: 'featured-category1',
     },
-    {
-      title: 'category2',
-      category: 'featured-category2',
-    },
+    // {
+    //   title: 'category2',
+    //   category: 'featured-category2',
+    // },
   ],
 
   /**
@@ -60,19 +59,11 @@ export default {
   timestamps: [
     {
       category: 'Career',
-      date: '2022.01.04 - NOW',
-      en: 'A Corp.',
+      date: '2024.05 - NOW',
+      en: 'AIPro Corp.',
       kr: '(주)에이아이프로',
-      info: 'A 팀',
-      link: '',
-    },
-    {
-      category: 'Career',
-      date: '2021.01.04 - 2022.01.04',
-      en: 'B Corp.',
-      kr: 'B 회사',
-      info: 'B 팀',
-      link: '',
+      info: 'Web Developer',
+      link: 'https://www.aipro.ai/',
     },
     {
       category: 'Activity',
